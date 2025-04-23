@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	margin: 0;
+	font-family: "Jost", sans-serif;
+	width: 100% !important;
+	background-color: #FAFAFA !important;
+}
+
+a {
+	text-decoration: none;
+	/*display: unset !important;*/
+	font-weight: unset !important;
+}
+
+a:hover {
+	text-decoration: none;
+  font-weight: unset !important;
+}
+
+a:visited {
+    color: unset;
+}
+
+a, a:active, a:link {
+    color: unset;
+    text-decoration: none !important;
+}
+
+img {
+	border: 0;
+}
+
+p {
+	margin: 0;
+}
+
+input:focus {
+	outline: none;
+	background-color: #FFF;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+section {
+  width: 100%;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+}
+
+ol, ul {
+  margin:  0 !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+a[href^=tel] { color: inherit; text-decoration: none; }
+
+::-webkit-input-placeholder { color: #BBBBBB !important; } /* WebKit */
+:-moz-placeholder { color: #BBBBBB !important; } /* Firefox 18- */
+::-moz-placeholder { color: #BBBBBB !important; } /* Firefox 19+ */
+:-ms-input-placeholder { color: #BBBBBB !important; } /* IE 10+ */
