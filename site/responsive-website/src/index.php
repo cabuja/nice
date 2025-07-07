@@ -3,7 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nice</title>
+    <!-- Performance - Preload crítico -->
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" as="style">
+
+    <title>Nice Diseño + Comunicación | Agencia de Branding y Marketing Digital Buenos Aires</title>
+    <meta name="description" content="Agencia de diseño gráfico y marketing digital en Buenos Aires. Especialistas en branding, identidad visual, sitios web y comunicación para PyMEs. +20 años de experiencia.">
+    <meta name="keywords" content="diseño gráfico, branding, marketing digital, identidad visual, sitios web, comunicación, PyMEs, Buenos Aires, Argentina">
+    <meta name="author" content="Nice Diseño + Comunicación">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="Nice Diseño + Comunicación | Agencia de Branding y Marketing">
+    <meta property="og:description" content="Especialistas en branding, identidad visual y marketing digital para PyMEs. +20 años creando marcas exitosas.">
+    <meta property="og:image" content="https://nice.com.ar/img/og-image.jpg">
+    <meta property="og:url" content="https://nice.com.ar/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nice Diseño + Comunicación">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nice Diseño + Comunicación">
+    <meta name="twitter:description" content="Agencia de branding y marketing digital en Buenos Aires">
+    <meta name="twitter:image" content="https://nice.com.ar/img/twitter-card.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://nice.com.ar/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nice Diseño + Comunicación",
+        "description": "Agencia de diseño gráfico y marketing digital especializada en branding para PyMEs",
+        "url": "https://nice.com.ar",
+        "telephone": "+54-11-3914-1952",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Encarnación Ezcurra 420 1er Piso",
+            "addressLocality": "Puerto Madero",
+            "addressRegion": "Ciudad Autónoma de Buenos Aires",
+            "postalCode": "C1107CLD",
+            "addressCountry": "AR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -34.6118,
+            "longitude": -58.3960
+        },
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "sameAs": [
+            "https://www.linkedin.com/company/nice-diseno-comunicacion"
+        ],
+        "founder": {
+            "@type": "Person",
+            "name": "Nice Diseño + Comunicación"
+        },
+        "foundingDate": "2003",
+        "serviceArea": {
+            "@type": "Country",
+            "name": "Argentina"
+        },
+        "priceRange": "$$"
+    }
+    </script>
+
     <link rel="stylesheet" href="css/main.css<?php include "inc/ver.php" ?>">
     <script src="js/main.js<?php include "inc/ver.php" ?>" defer></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -17,132 +86,132 @@
             <span class="tag">NUESTRO TRABAJO</span>
             <h2>PORTFOLIO</h2>
             <p class="txtP">Te mostramos lo más destacado en cada rubro. Si querés conocer <br>
-            más podés ver nuestro portfolio <a href="portfolio.php" class="link-highlight">ingresando aquí</a></p>
+            más podés ver nuestro historial <a href="portfolio.php" class="link-highlight"
+            title="Ver portfolio completo de Nice">ingresando aquí</a></p>
         </div>
         <div class="contentPortfolio">
-            <div class="portfolio-slider">
+            <div class="portfolio-slider" aria-label="Galería de trabajos realizados">
                 <div class="slides">
                     <div class="slide">
-                        <img src="img/portfolio/portfolio1.jpg" alt="Loncon">
-                        <div class="slide-caption">
-                            <p>LONCON - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
-                        </div>
+                    <img src="img/portfolio/portfolio1.jpg" alt="LONCON - Posicionamiento de marca y rediseño de logotipo" loading="lazy">
+                    <div class="slide-caption">
+                        <p>LONCON - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/Nice_Portfolio-A21_imagenes-02.jpg" alt="Loncon 2">
-                        <div class="slide-caption">
-                            <p>ACEROS 21</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/Nice_Portfolio-A21_imagenes-02.jpg" alt="ACEROS 21 - Identidad corporativa y diseño gráfico" loading="lazy">
+                    <div class="slide-caption">
+                        <p>ACEROS 21</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/05_Web.gif" alt="Loncon 3">
-                        <div class="slide-caption">
-                            <p>AERODYM - Imagen corporativa. Fotografía de producto, diseño web, papelería.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/05_Web.gif" alt="AERODYM - Imagen corporativa y fotografía de producto" loading="lazy">
+                    <div class="slide-caption">
+                        <p>AERODYM - Imagen corporativa. Fotografía de producto, diseño web, papelería.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/Nice_Portfolio-AMG_imagenes-02.jpg" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>AMG - Diseño web. Desarrollo de software de gestión de clientes y proveedores en web. Diseño gráfico para redes sociales. Estrategias de e-mail marketing.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/Nice_Portfolio-AMG_imagenes-02.jpg" alt="AMG - Diseño web y software de gestión" loading="lazy">
+                    <div class="slide-caption">
+                        <p>AMG - Diseño web. Desarrollo de software de gestión de clientes y proveedores en web. Diseño gráfico para redes sociales. Estrategias de e-mail marketing.</p>
                     </div>
-
-                    <div class="slide">
-                        <img src="img/portfolio/Nice_Portfolio-Cosde_imagenes-01.gif" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>COSE - Diseño de marca. Diseño Web.Diseño de brochure institucional. Hosting web.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/Nice_Portfolio-Cosde_imagenes-01.gif" alt="COSE - Diseño de marca y brochure institucional" loading="lazy">
+                    <div class="slide-caption">
+                        <p>COSE - Diseño de marca. Diseño Web.Diseño de brochure institucional. Hosting web.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/webecsa.gif" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>ECSA - Manufactura de productos de acero.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/webecsa.gif" alt="ECSA - Manufactura de productos de acero" loading="lazy">
+                    <div class="slide-caption">
+                        <p>ECSA - Manufactura de productos de acero.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/lucero.gif" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>LUCERO - Lavandería industrial.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/lucero.gif" alt="LUCERO - Lavandería industrial" loading="lazy">
+                    <div class="slide-caption">
+                        <p>LUCERO - Lavandería industrial.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/fulllock.jpg" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>FULL LOCK - Cerraduras inteligentes.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/fulllock.jpg" alt="FULL LOCK - Cerraduras inteligentes" loading="lazy">
+                    <div class="slide-caption">
+                        <p>FULL LOCK - Cerraduras inteligentes.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/NICE-portfolio-Grand-02.webp" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>GRAND - Empresa de reformas.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/NICE-portfolio-Grand-02.webp" alt="GRAND - Empresa de reformas" loading="lazy">
+                    <div class="slide-caption">
+                        <p>GRAND - Empresa de reformas.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/lamibraz.gif" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>LAMIBRAZ - Rediseño de marca. Diseño web. Fotografía.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/lamibraz.gif" alt="LAMIBRAZ - Rediseño de marca y fotografía" loading="lazy">
+                    <div class="slide-caption">
+                        <p>LAMIBRAZ - Rediseño de marca. Diseño web. Fotografía.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/merlift.gif" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>MERLIFT - Logística.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/merlift.gif" alt="MERLIFT - Empresa de logística" loading="lazy">
+                    <div class="slide-caption">
+                        <p>MERLIFT - Logística.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/Nice_Portfolio_nyc_redes1.webp" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>NyC Metal&uacute;rgica - Empresa metalúrgica.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/Nice_Portfolio_nyc_redes1.webp" alt="NyC Metalúrgica - Empresa metalúrgica" loading="lazy">
+                    <div class="slide-caption">
+                        <p>NyC Metal&uacute;rgica - Empresa metalúrgica.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/modufox.gif" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>MODUFOX - Construcción.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/modufox.gif" alt="MODUFOX - Empresa de construcción" loading="lazy">
+                    <div class="slide-caption">
+                        <p>MODUFOX - Construcción.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/po.jpg" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>PAPEL OESTE - Papelera distribuidora.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/po.jpg" alt="PAPEL OESTE - Papelera distribuidora" loading="lazy">
+                    <div class="slide-caption">
+                        <p>PAPEL OESTE - Papelera distribuidora.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/06_Mailing_Post_Facebook.jpg" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>Mailing y Post en Facebook.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/06_Mailing_Post_Facebook.jpg" alt="Diseño de mailing y posts para Facebook" loading="lazy">
+                    <div class="slide-caption">
+                        <p>Mailing y Post en Facebook.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/Nice_Portfolio-Pintarelli_imagenes-01.gif" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>PINTARELLI - Bajo Chasis.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/Nice_Portfolio-Pintarelli_imagenes-01.gif" alt="PINTARELLI - Bajo Chasis" loading="lazy">
+                    <div class="slide-caption">
+                        <p>PINTARELLI - Bajo Chasis.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/05_Web_2.jpg" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>E-COMMERCE</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/05_Web_2.jpg" alt="Diseño de e-commerce" loading="lazy">
+                    <div class="slide-caption">
+                        <p>E-COMMERCE</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/05_Web_1.jpg" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>SUMAPACK - Packaging personalizado.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/05_Web_1.jpg" alt="SUMAPACK - Packaging personalizado" loading="lazy">
+                    <div class="slide-caption">
+                        <p>SUMAPACK - Packaging personalizado.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/03_Papeleria_2.jpg" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>TECNOLAB - Insumos de laboratorio.</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/03_Papeleria_2.jpg" alt="TECNOLAB - Insumos de laboratorio" loading="lazy">
+                    <div class="slide-caption">
+                        <p>TECNOLAB - Insumos de laboratorio.</p>
                     </div>
-                    <div class="slide">
-                        <img src="img/portfolio/tss.gif" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>TSS GROUP - .</p>
-                        </div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/tss.gif" alt="TSS GROUP - Servicios corporativos" loading="lazy">
+                    <div class="slide-caption">
+                        <p>TSS GROUP - .</p>
                     </div>
+                </div>
                 </div>
                 <div class="controls">
                     <button class="prev">❮</button>
@@ -150,10 +219,10 @@
                 </div>
             </div>
         </div>
-        <a href="portfolio.php" class="btn-highlight">VISITA TODO NUESTRO PORTFOLIO</a>
+        <a href="portfolio.php" class="btn-highlight" title="Ver todos nuestros trabajos">VISITA NUESTRO HISTORIAL DE TRABAJOS</a>
     </section>
     <section>
-        <div class="bgIdentidadVisual">
+        <div class="bgIdentidadVisual" aria-label="Concepto de identidad visual">
             <p>
                 UNA IDENTIDAD VISUAL <br>
                 VA MUCHO MÁS ALLÁ QUE LA <br>
@@ -164,22 +233,22 @@
     <section class="branding" id="servicios">
         <span class="tag marginTop50">SERVICIOS</span>
         <div class="services-flow">
-            <img src="img/branding.jpg" alt="Branding" class="imgBandring">
+            <img src="img/branding.jpg" alt="Servicios de branding y diseño gráfico Nice" class="imgBandring" loading="lazy">
             <a href="#contacto" target="_self">
-                <img src="img/branding2.jpg" alt="Branding" class="imgBandring">
-                <img src="img/branding3.jpg" alt="Branding" class="imgBandring">
+                <img src="img/branding2.jpg" alt="Proceso de creación de identidad visual" class="imgBandring" loading="lazy">
+                <img src="img/branding3.jpg" alt="Comunicación digital y marketing" class="imgBandring" loading="lazy">
             </a>
-            <img src="img/branding-mobile.jpg" alt="Branding" class="imgBandringMobile">
+            <img src="img/branding-mobile.jpg" alt="Servicios de branding para móviles" class="imgBandringMobile">
             <a href="#contacto" target="_self">
-                <img src="img/branding-mobile2.jpg" alt="Branding" class="imgBandringMobile">
-                <img src="img/branding-mobile3.jpg" alt="Branding" class="imgBandringMobile">
+                <img src="img/branding-mobile2.jpg" alt="Proceso de diseño móvil" class="imgBandringMobile" loading="lazy">
+                <img src="img/branding-mobile3.jpg" alt="Comunicación digital móvil" class="imgBandringMobile" loading="lazy">
             </a>
         </div>
     </section>
 
     <section class="nosotros" id="nosotros">
-        <img src="img/nosotros.jpg" alt="Nosotros" class="imgNosotros">
-        <img src="img/nosotros-mobile.jpg" alt="Nosotros" class="imgNosotrosMobile">
+        <img src="img/nosotros.jpg" alt="Equipo de Nice Diseño + Comunicación trabajando en proyectos creativos" class="imgNosotros" loading="lazy">
+        <img src="img/nosotros-mobile.jpg" alt="Equipo de Nice Diseño + Comunicación" class="imgNosotrosMobile" loading="lazy">
         <div class="footer-header" id="contacto">
             <h2>CONTACTO</h2>
         </div>
@@ -189,5 +258,8 @@
     include "inc/pie.php";
     ?>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <?php 
+    include "send/form.php";
+    ?>
 </body>
 </html>

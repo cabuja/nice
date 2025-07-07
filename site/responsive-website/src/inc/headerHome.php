@@ -1,21 +1,21 @@
 <header class="main-slider">
     <nav>
         <div class="logo">
-            <a href="https://nice.com.ar/new/" target="_self">
+            <a href="https://nice.com.ar/" target="_self">
             <img src="img/Logo-Nice.png" alt="Nice">
             </a>
         </div>
         <div class="nav-right">
             <ul class="nav-links">
-                <li><a href="https://nice.com.ar/new/#portfolio">PORTFOLIO</a></li>
-                <li><a href="https://nice.com.ar/new/#servicios">SERVICIOS</a></li>
-                <li><a href="https://nice.com.ar/new/#nosotros">NOSOTROS</a></li>
+                <li><a href="https://nice.com.ar/#portfolio">PORTFOLIO</a></li>
+                <li><a href="https://nice.com.ar/#servicios">SERVICIOS</a></li>
+                <li><a href="https://nice.com.ar/#nosotros">NOSOTROS</a></li>
                 <li><a href="consultoria.php">CONSULTORÍA</a></li>
-                <li><a href="https://nice.com.ar/new/#contacto">CONTACTO</a></li>
+                <li><a href="https://nice.com.ar/#contacto">CONTACTO</a></li>
             </ul>
             <div class="redesSociales desktop">
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/carol-venice-56769316/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://wa.me/541139141952?text=Hola,%20me%20contacto%20desde%20la%20web%20de%20Nice" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </div>
             <button class="menu-toggle" aria-label="Menú">
                 <i class="fas fa-bars"></i>
@@ -28,15 +28,15 @@
             <i class="fas fa-times"></i>
         </button>
         <ul>
-            <li><a href="https://nice.com.ar/new/#portfolio">PORTFOLIO</a></li>
-            <li><a href="https://nice.com.ar/new/#servicios">SERVICIOS</a></li>
-            <li><a href="https://nice.com.ar/new/#nosotros">NOSOTROS</a></li>
+            <li><a href="https://nice.com.ar/#portfolio">PORTFOLIO</a></li>
+            <li><a href="https://nice.com.ar/#servicios">SERVICIOS</a></li>
+            <li><a href="https://nice.com.ar/#nosotros">NOSOTROS</a></li>
             <li><a href="consultoria.php">CONSULTORÍA</a></li>
-            <li><a href="https://nice.com.ar/new/#contacto">CONTACTO</a></li>
+            <li><a href="https://nice.com.ar/#contacto">CONTACTO</a></li>
         </ul>
         <div class="redesSociales">
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/carol-venice-56769316/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/541139141952?text=Hola,%20me%20contacto%20desde%20la%20web%20de%20Nice" target="_blank"><i class="fab fa-whatsapp"></i></a>
         </div>
     </div>
 

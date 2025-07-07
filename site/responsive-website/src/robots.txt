@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /inc/
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://nice.com.ar/sitemap.xml

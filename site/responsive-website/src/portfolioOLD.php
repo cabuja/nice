@@ -3,66 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Básico -->
-    <title>Portfolio de Diseño Gráfico y Branding | Nice Diseño + Comunicación</title>
-    <meta name="description" content="Portfolio completo de trabajos de diseño gráfico, branding e identidad visual. Proyectos realizados para PyMEs en Buenos Aires. Ver nuestros casos de éxito.">
-    <meta name="keywords" content="portfolio diseño gráfico, trabajos branding, casos éxito diseño, identidad visual portfolio, proyectos PyMEs, Buenos Aires">
-    <meta name="author" content="Nice Diseño + Comunicación">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Portfolio de Diseño Gráfico y Branding | Nice Diseño + Comunicación">
-    <meta property="og:description" content="Portfolio completo de trabajos de diseño gráfico, branding e identidad visual para PyMEs.">
-    <meta property="og:image" content="https://nice.com.ar/img/portfolio-og.jpg">
-    <meta property="og:url" content="https://nice.com.ar/portfolio.php">
-    <meta property="og:type" content="website">
-    
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Portfolio de Diseño Gráfico y Branding">
-    <meta name="twitter:description" content="Portfolio completo de trabajos de branding e identidad visual">
-    <meta name="twitter:image" content="https://nice.com.ar/img/portfolio-twitter.jpg">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://nice.com.ar/portfolio.php">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    
-    <!-- Schema.org -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "CreativeWork",
-        "name": "Portfolio Nice Diseño + Comunicación",
-        "description": "Portfolio completo de trabajos de diseño gráfico, branding e identidad visual realizados para empresas PyMEs",
-        "creator": {
-            "@type": "LocalBusiness",
-            "name": "Nice Diseño + Comunicación",
-            "url": "https://nice.com.ar"
-        },
-        "workExample": [
-            {
-                "@type": "VisualArtwork",
-                "name": "LONCON - Posicionamiento de marca",
-                "artworkSurface": "Digital"
-            },
-            {
-                "@type": "VisualArtwork", 
-                "name": "AERODYM - Imagen corporativa",
-                "artworkSurface": "Digital"
-            }
-        ]
-    }
-    </script>
-    
+    <title>Nice</title>
     <link rel="stylesheet" href="css/main.css<?php include "inc/ver.php" ?>">
     <link rel="stylesheet" href="css/mobile.min.css<?php include "inc/ver.php" ?>">
     <script src="js/portfolio.js"></script>
     <script src="js/main.js?ver=1.4" defer></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    
     <!-- COLOR BOX ZOOM GALLERY -->
     <script type="text/javascript" src="lib/jquery.1.7.2.js"></script>
     <script src="js/jquery.colorbox.js"></script>
@@ -141,7 +87,7 @@
             
             //Example of preserving a JavaScript event for inline calls.
             jQuery("#click").click(function(){ 
-                jQuery('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+                jQuery('#click').min.css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
                 return false;
             });
         });
@@ -150,28 +96,25 @@
 <body>
     <?php include "inc/header.php"; ?>
 
-    <main>
-        <section class="portfolio" id="portfolioGral">
-            <header class="section-header">
-                <span class="tag">NUESTRO TRABAJO</span>
-                <h1>PORTFOLIO COMPLETO</h1>
-                <p class="txtP">Te mostramos lo más destacado en cada rubro. Si querés conocer <br>
-                más podés ver nuestro portfolio completo de trabajos realizados.</p>
-            </header>
-            <div class="contentPortfolio">
-                <section>
-                    <div id="portfolio" class="section resmode-Yes">
-                        <div class="container"> 
-                            <?php
-                            include "inc/portfolio.php";
-                            ?>
-                        </div>	           
-                    </div>
-                </section> 
-            </div>
-        </section>
-    </main>
-    
+    <section class="portfolio" id="portfolioGral">
+        <div class="section-header">
+            <span class="tag">NUESTRO TRABAJO</span>
+            <h2>PORTFOLIO COMPLETO</h2>
+            <p class="txtP">Te mostramos lo más destacado en cada rubro. Si querés conocer <br>
+            más podés ver nuestro portfolio.</p>
+        </div>
+        <div class="contentPortfolio">
+            <section>
+                <div id="portfolio" class="section resmode-Yes">
+                    <div class="container"> 
+                        <?php
+                        include "inc/portfolio.php";
+                        ?>
+                    </div>	           
+                </div>
+            </section> 
+        </div>
+    </section>
     <?php
     include "inc/footer.php";
     include "inc/pie.php";
