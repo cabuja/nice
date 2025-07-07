@@ -43,110 +43,104 @@
                     <div class="slide">
                         <img src="img/portfolio/Nice_Portfolio-AMG_imagenes-02.jpg" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>AMG - Diseño web. Desarrollo de software de gestión de clientes y proveedores en web. Diseño gráfico para redes sociales. Estrategias de e-mail marketing.</p>
                         </div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/portfolio/05_Web - copia.gif" alt="Loncon 4">
-                        <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
-                        </div>
-                    </div>
-                    <div class="slide">
                         <img src="img/portfolio/Nice_Portfolio-Cosde_imagenes-01.gif" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>COSE - Diseño de marca. Diseño Web.Diseño de brochure institucional. Hosting web.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/webecsa.gif" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>ECSA - Manufactura de productos de acero.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/lucero.gif" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>LUCERO - Lavandería industrial.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/fulllock.jpg" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>FULL LOCK - Cerraduras inteligentes.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/NICE-portfolio-Grand-02.webp" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>GRAND - Empresa de reformas.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/lamibraz.gif" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>LAMIBRAZ - Rediseño de marca. Diseño web. Fotografía.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/merlift.gif" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>MERLIFT - Logística.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/Nice_Portfolio_nyc_redes1.webp" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>NyC Metal&uacute;rgica - Empresa metalúrgica.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/modufox.gif" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>MODUFOX - Construcción.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/po.jpg" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>PAPEL OESTE - Papelera distribuidora.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/06_Mailing_Post_Facebook.jpg" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>Mailing y Post en Facebook.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/Nice_Portfolio-Pintarelli_imagenes-01.gif" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>PINTARELLI - Bajo Chasis.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/05_Web_2.jpg" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>E-COMMERCE</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/05_Web_1.jpg" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>SUMAPACK - Packaging personalizado.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/03_Papeleria_2.jpg" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>TECNOLAB - Insumos de laboratorio.</p>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="img/portfolio/tss.gif" alt="Loncon 4">
                         <div class="slide-caption">
-                            <p>LONCON 4 - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
+                            <p>TSS GROUP - .</p>
                         </div>
                     </div>
                 </div>
@@ -171,8 +165,15 @@
         <span class="tag marginTop50">SERVICIOS</span>
         <div class="services-flow">
             <img src="img/branding.jpg" alt="Branding" class="imgBandring">
+            <a href="#contacto" target="_self">
+                <img src="img/branding2.jpg" alt="Branding" class="imgBandring">
+                <img src="img/branding3.jpg" alt="Branding" class="imgBandring">
+            </a>
             <img src="img/branding-mobile.jpg" alt="Branding" class="imgBandringMobile">
-
+            <a href="#contacto" target="_self">
+                <img src="img/branding-mobile2.jpg" alt="Branding" class="imgBandringMobile">
+                <img src="img/branding-mobile3.jpg" alt="Branding" class="imgBandringMobile">
+            </a>
         </div>
     </section>
 

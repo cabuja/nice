@@ -94,12 +94,12 @@
     </script>
 </head>
 <body>
-    <?php include "inc/headerHome.php"; ?>
+    <?php include "inc/header.php"; ?>
 
     <section class="portfolio" id="portfolioGral">
         <div class="section-header">
             <span class="tag">NUESTRO TRABAJO</span>
-            <h2>PORTFOLIO</h2>
+            <h2>PORTFOLIO COMPLETO</h2>
             <p class="txtP">Te mostramos lo más destacado en cada rubro. Si querés conocer <br>
             más podés ver nuestro portfolio.</p>
         </div>
