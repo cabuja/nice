@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Performance - Preload crítico -->
     <link rel="preload" href="css/main.css" as="style">
-    <!-- Preload y uso correcto de Google Fonts -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap">
-    </noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" as="style">
 
     <title>Nice Diseño + Comunicación | Agencia de Branding y Marketing Digital Buenos Aires</title>
     <meta name="description" content="Agencia de diseño gráfico y marketing digital en Buenos Aires. Especialistas en branding, identidad visual, sitios web y comunicación para PyMEs. +20 años de experiencia.">
@@ -239,186 +235,91 @@
     <div class="branding-titulo">
       <h2>ESTRATEGIA DE BRANDING</h2>
     </div>
+    <div class="branding-estrategia-grid">
+      <div class="branding-col branding-col-left">
+        <div class="branding-step">
+          <span class="branding-icon-bg">
+            <img src="img/icon-posicionamiento.png" alt="Posicionamiento y estrategia" class="branding-icon">
+          </span>
+          <span class="branding-title">Posicionamiento<br>&amp; estrategia</span>
+        </div>
+        <div class="branding-arrow-down"><span class="arrow-left"></span><span class="arrow-right"></span></div>
+        <div class="branding-step">
+          <span class="branding-icon-bg">
+            <img src="img/icon-identidad.png" alt="Identidad visual" class="branding-icon">
+          </span>
+          <span class="branding-title">Identidad<br>visual</span>
+        </div>
+        <div class="branding-arrow-down"><span class="arrow-left"></span><span class="arrow-right"></span></div>
+        <div class="branding-step">
+          <span class="branding-icon-bg">
+            <img src="img/icon-comunicacion.png" alt="Identidad visual" class="branding-icon">
+          </span>
+          <span class="branding-title">Comunicación<br>digital</span>
+        </div>
+    </div>
+      <div class="branding-col branding-col-center">
+        <div class="branding-group" style="margin-bottom: 110px;">
+          <span class="branding-e-line"></span>
+          <ul class="branding-list">
+            <li>Empleados</li>
+            <li>Canales</li>
+            <li>Consumidores</li>
+          </ul>
+        </div>
+        <div class="branding-group" style="margin-bottom: 110px;">
+          <span class="branding-e-line twoline"></span>
+          <ul class="branding-list">
+            <li>Identidad corporativa</li>
+            <li>Sitio web, mailing,</li>
+            <li>posicionamiento web.</li>
+          </ul>
+        </div>
+        <div class="branding-group">
+          <span class="branding-e-line"></span>
+          <ul class="branding-list">
+            <li>Plan y contenidos</li>
+            <li>Diseño</li>
+            <li>Gestión</li>
+          </ul>
+        </div>
+      </div>
+      <div class="branding-col branding-col-right">
+        <div class="branding-potenciar">
+          <span class="branding-eq">=</span>
+          <span class="branding-potenciar-ventas">potenciar<br>las ventas</span>
+        </div>
+        <ul class="branding-list-right" style="margin-top:110px;">
+          <li>Fotografía y video</li>
+          <li>Packaging</li>
+          <li>Campañas de moda</li>
+        </ul>
+        <div class="branding-potenciar txt-comunicacion-digital" style="margin-top:110px;">
+          <span class="branding-comunicacion-digital" >TRABAJEMOS <br>HOY EN EL BRANDING <br>DE TU NEGOCIO</span>
+        </div>
+      </div>
+    </div>
     <div class="flexWidth">
-        <div class="branding-estrategia-grid">
-        <!-- Fila 1: Posicionamiento & estrategia -->
-        <div class="branding-row flexStart">
-            <div class="branding-step">
-            <span class="branding-icon-bg">
-                <img src="img/icon-posicionamiento.png" alt="Posicionamiento y estrategia" class="branding-icon">
-            </span>
-            <span class="branding-title">Posicionamiento<br>&amp; estrategia</span>
-            </div>
-            <div class="branding-list-potenciar">
-            <span class="branding-e-line"></span>
-            <ul class="branding-list">
-                <li>Empleados</li>
-                <li>Canales</li>
-                <li>Consumidores</li>
-            </ul>
-            <div class="branding-potenciar">
-                <span class="branding-eq">=</span>
-                <span class="branding-potenciar-ventas">potenciar<br>las ventas</span>
-            </div>
-            </div>
-        </div>
-        <!-- Flecha -->
-        <div class="branding-arrow-row">
-            <div class="branding-arrow-down"><span class="arrow-left"></span><span class="arrow-right"></span></div>
-        </div>
-        <!-- Fila 2: Identidad visual -->
-        <div class="branding-row flexStart">
-            <div class="branding-step">
-            <span class="branding-icon-bg">
-                <img src="img/icon-identidad.png" alt="Identidad visual" class="branding-icon">
-            </span>
-            <span class="branding-title">Identidad<br>visual</span>
-            </div>
-            <div class="branding-list-duo">
-            <span class="branding-e-line twoline"></span>
-            <ul class="branding-list columResp">
-                <li>Identidad corporativa</li>
-                <li>Sitio web, mailing,<br>posicionamiento web.</li>
-            </ul>
-            <ul class="branding-list-right">
-                <li>Fotografía y video</li>
-                <li>Packaging</li>
-                <li>Campañas de moda</li>
-            </ul>
-            </div>
-        </div>
-        <!-- Flecha -->
-        <div class="branding-arrow-row">
-            <div class="branding-arrow-down"><span class="arrow-left"></span><span class="arrow-right"></span></div>
-        </div>
-        <!-- Fila 3: Comunicación digital -->
-        <div class="branding-row flexStart">
-            <div class="branding-step">
-            <span class="branding-icon-bg">
-                <img src="img/icon-comunicacion.png" alt="Comunicación digital" class="branding-icon">
-            </span>
-            <span class="branding-title">Comunicación<br>digital</span>
-            </div>
-            <div class="branding-list-duo">
-            <span class="branding-e-line"></span>
-                <ul class="branding-list">
-                    <li>Plan y contenidos</li>
-                    <li>Diseño</li>
-                    <li>Gestión</li>
-                </ul>
-            </div>
-            <div class="branding-potenciar txt-comunicacion-digital">
-            <span class="branding-comunicacion-digital" onclick="window.location.href='#contacto';">TRABAJEMOS <br>HOY EN EL BRANDING <br>DE TU NEGOCIO</span>
-            </div>
-        </div>
         <div class="lineServicios"></div>
-        </div>
-        <div class="flexWidth">
-        </div>
-        <div class="branding-estrategia-grid flexBetween">
-            <div class="branding-step gap83">
-                <span class="branding-icon-bg alignFlexStart">
-                    <img src="img/icon-equipos.png" alt="Armado de equipos" class="branding-icon">
-                    <span class="branding-title marginLeft15">Armada de equipos<br>
-                        <small style="font-size:18px;">del propio departamento comercial o de comunicación.</small>
-                    </span>
+    </div>
+    <div class="branding-estrategia-grid flexBetween">
+        <div class="branding-step gap83">
+            <span class="branding-icon-bg">
+                <img src="img/icon-equipos.png" alt="Armado de equipos" class="branding-icon">
+                <span class="branding-title marginLeft15">Armada de equipos<br>
+                    <small style="font-size:18px;">del propio departamento comercial o de comunicación.</small>
                 </span>
-                <div class="branding-potenciar btn-armado-equipos">
-                    <span class="branding-comunicacion-digital btnConsultanosArmadoEquipos" onclick="window.location.href='#contacto';">CONSULTANOS</span>
-                </div>
+            </span>
+            <div class="branding-potenciar btn-armado-equipos">
+                <span class="branding-comunicacion-digital btnConsultanosArmadoEquipos">CONSULTANOS</span>
             </div>
         </div>
     </div>
     </section>
 
     <section class="nosotros" id="nosotros">
-        <div class="flexWidth">
-            <div class="bgTopNosotros"></div>
-        </div>
-        <p class="somos-nice-p">Un staff de profesionales multidisciplinario pronto a cumplir <b>22 años de experiencia.</b><br>
-               Somos mentes creativas que transformamos ideas en soluciones para negocios con foco en resultados. <br>
-               <b>Agregamos valor a la marca cuidando los recursos de las PyMEs.</b> Armamos equipos a medida para cada proyecto, <br>
-               desarrollando la estrategia e implementando las propuestas de diseño y comunicación que mejor responda a su necesidad.</p>
-        <section class="team-circle-container">
-        <div class="team-circle">
-            <div class="txtCurvoTop">
-                <img src="img/team/txtEnriquecemos.png" alt="Nos enriquecemos en el encuentro">
-            </div>
-            <div class="txtCurvoBottom">
-                <img src="img/team/txtRelaciones.png" alt="Nos llevamos experiencias y relaciones duraderas.">
-            </div>
-            <!-- Miembros del equipo -->
-            <div class="team-member member-principal center">
-            <div class="member-photo member-principal"><img src="img/team/circleCarol.png" alt="CAROL VENICE" class="imgCarolVenice"></div>
-            <h3 class="h3-principal">CAROL VENICE</h3>
-            <p class="p-principal">Estrategia</p>
-            </div>
-            <div class="team-member pos-1">
-            <div class="member-photo"><img src="img/team/circleEsteban.png" alt="ESTEBAN SELVAGGI"></div>
-            <h3>ESTEBAN SELVAGGI</h3>
-            <p>Posicionamiento SEO</p>
-            </div>
-            <div class="team-member pos-2">
-            <div class="member-photo"><img src="img/team/circleAdrian.png" alt="ADRIAN BUJANDA"></div>
-            <h3>ADRIAN BUJANDA</h3>
-            <p>IT</p>
-            </div>
-            <div class="team-member pos-3">
-            <div class="member-photo"><img src="img/team/circleClaudio.png" alt="CLAUDIO JORDA"></div>
-            <h3>CLAUDIO JORDA</h3>
-            <p>Fotografía y Video</p>
-            </div>
-            <div class="team-member pos-4">
-            <div class="member-photo"><img src="img/team/circleNatalia.png" alt="NATALIA PIETRAFESA"></div>
-            <h3>NATALIA PIETRAFESA</h3>
-            <p>Contenidos</p>
-            </div>
-            <div class="team-member pos-5">
-            <div class="member-photo"><img src="img/team/circleCruz.png" alt="MARÍA NOEL CRUZ"></div>
-            <h3>MARÍA NOEL CRUZ</h3>
-            <p>Comunicación</p>
-            </div>
-            <div class="team-member pos-6">
-            <div class="member-photo"><img src="img/team/circleAnnun.png" alt="MARÍA LAURA ANNUN"></div>
-            <h3>MARÍA LAURA ANNUN</h3>
-            <p>Diseño Gráfico</p>
-            </div>
-            <div class="team-member pos-7">
-            <div class="member-photo"><img src="img/team/circleAgustina.png" alt="AGUSTINA BEXIGA"></div>
-            <h3>AGUSTINA BEXIGA</h3>
-            <p>Diseño Gráfico</p>
-            </div>
-            <div class="team-member pos-8">
-            <div class="member-photo"><img src="img/team/circleSantiago.png" alt="SANTIAGO PINASCO"></div>
-            <h3>SANTIAGO PINASCO</h3>
-            <p>Pauta</p>
-            </div>
-            <div class="team-member pos-9">
-            <div class="member-photo"><img src="img/team/circleOlivia.png" alt="OLIVIA WEHT"></div>
-            <h3>OLIVIA WEHT</h3>
-            <p>Community Manager</p>
-            </div>
-            <div class="team-member pos-10">
-            <div class="member-photo"><img src="img/team/circleSol.png" alt="SOL GIANNETTI"></div>
-            <h3>SOL GIANNETTI</h3>
-            <p>Contenidos</p>
-            </div>
-            <!-- Ejemplo de decoraciones -->
-            <span class="decoration-plus pos-1">+</span>
-            <span class="decoration-plus pos-2">+</span>
-            <span class="decoration-plus pos-3">+</span>
-            <span class="decoration-dot pos-1">•</span>
-            <span class="decoration-dot pos-2">•</span>
-            <span class="decoration-dot pos-3">•</span>
-        </div>
-        
-        </section>
-        <div class="flexWidth">
-            <div class="bgBottomNosotros"></div>
-        </div>
-        <!--
         <img src="img/nosotros.jpg" alt="Equipo de Nice Diseño + Comunicación trabajando en proyectos creativos" class="imgNosotros" loading="lazy">
-        <img src="img/nosotros-mobile.jpg" alt="Equipo de Nice Diseño + Comunicación" class="imgNosotrosMobile" loading="lazy">-->
+        <img src="img/nosotros-mobile.jpg" alt="Equipo de Nice Diseño + Comunicación" class="imgNosotrosMobile" loading="lazy">
         <div class="footer-header" id="contacto">
             <h2>CONTACTO</h2>
         </div>
