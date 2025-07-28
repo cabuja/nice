@@ -127,9 +127,7 @@
         
         <section class="messageConsultora">
             <div class="message-content">
-                <p>Con más de 20 años de experiencia en la<br>
-                creación de identidades visuales, asesoro<br>
-                en Diseño Gráfico y Marketing</p>
+                <p>Asesoro en Marketing, comunicación y diseño gráfico</p>
             </div>
         </section>
     </main>

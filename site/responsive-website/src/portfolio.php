@@ -153,6 +153,9 @@
     <main>
         <section class="portfolio" id="portfolioGral">
             <header class="section-header">
+                <a href="/" target="_self" class="btnVolver">
+                    <i class="fas fa-chevron-left"></i>&nbsp;VOLVER
+                </a>
                 <span class="tag">NUESTRO TRABAJO</span>
                 <h1>PORTFOLIO COMPLETO</h1>
                 <p class="txtP">Te mostramos lo más destacado en cada rubro. Si querés conocer <br>
@@ -173,7 +176,7 @@
     </main>
     
     <?php
-    include "inc/footer.php";
+    include "inc/footer-port.php";
     include "inc/pie.php";
     ?>
 

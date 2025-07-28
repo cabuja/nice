@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Performance - Preload crítico -->
-    <link rel="preload" href="css/main.css" as="style">
+    <link rel="preload" href="css/main.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+    <link rel="stylesheet" href="css/main.css">
+    </noscript>
     <!-- Preload y uso correcto de Google Fonts -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" as="style" onload="this.rel='stylesheet'">
     <noscript>
@@ -94,128 +97,218 @@
             title="Ver portfolio completo de Nice">ingresando aquí</a></p>
         </div>
         <div class="contentPortfolio">
+            <!--
             <div class="portfolio-slider" aria-label="Galería de trabajos realizados">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="img/portfolio/Nice_Portfolio-AMG_imagenes-02.jpg" alt="AMG - Diseño web y software de gestión" loading="lazy">
+                            <div class="slide-caption">
+                                <p>AMG - Energía. Estrategia de comunicación digital. Desarrollo web + software de gestión de gestión de legajos + diseño de piezas de presentación + estrategia de 
+                                    comunicación online + planificación y gestión de RRSS.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/Nice_Portfolio-Pintarelli_imagenes-01.gif" alt="PINTARELLI - Bajo Chasis" loading="lazy">
+                        <div class="slide-caption">
+                            <p>PINTARELLI - Metalúrgica. Diseño de piezas de comunicación: packaging, presentaciones, presupuestos, rodados+ Desarrollo web + intervención en planta.</p>
+                        </div>
+                    </div>
+            
+                        <div class="slide">
+                        <img src="img/portfolio/portfolio1.jpg" alt="LONCON - Posicionamiento de marca y rediseño de logotipo" loading="lazy">
+                        <div class="slide-caption">
+                            <p>LONCON - Limpieza y mantenimiento. Posicionamiento de marca, rediseño de logotipo y piezas de comunicación. Fotografía, diseño web, diseño de indumentaria y rodados.</p>
+                        </div>
+                
+                    <div class="slide">
+                        <img src="img/portfolio/po.jpg" alt="PAPEL OESTE - Papelera distribuidora" loading="lazy">
+                        <div class="slide-caption">
+                            <p>PAPEL OESTE - Papelera Mayorista. Posicionamiento de marca, rediseño de logotipo y piezas de comunicación. Desarrollo de e-commerce.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/Nice_Portfolio-A21_imagenes-02.jpg" alt="ACEROS 21 - Identidad corporativa y diseño gráfico" loading="lazy">
+                        <div class="slide-caption">
+                            <p>A21 - Aceros. Diseño de piezas de comunicación: papelería, presentaciones, presupuestos + Desarrollo web.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/NICE-portfolio-Grand-02.webp" alt="GRAND - Empresa de reformas" loading="lazy">
+                        <div class="slide-caption">
+                            <p>GRAND - Empresa de reformas en Estados Unidos. Posicionamiento de marca, rediseño de logotipo y piezas de comunicación. Desarrollo Web.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/merlift.gif" alt="MERLIFT - Empresa de logística" loading="lazy">
+                        <div class="slide-caption">
+                            <p>MERLIFT - Logística. Diseño de piezas de comunicación: papelería, presentaciones, presupuestos + Desarrollo web.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/Nice_Portfolio-Cosde_imagenes-01.gif" alt="COSE - Diseño de marca y brochure institucional" loading="lazy">
+                        <div class="slide-caption">
+                            <p>COSE - Tambores industriales. Diseño de marca y piezas de comunicación. Diseño Web. Estrategia de fidelización y merchandising.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/Nice_Portfolio_nyc_redes1.webp" alt="NyC Metalúrgica - Empresa metalúrgica" loading="lazy">
+                        <div class="slide-caption">
+                            <p>NyC Metal&uacute;rgica - Artículos publicitarios. Desarrollo de e-commerce + diseño de stand.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/webecsa.gif" alt="ECSA - Manufactura de productos de acero" loading="lazy">
+                        <div class="slide-caption">
+                            <p>ECSA - Resortes y alambres. Diseño de marca y piezas de comunicación. Diseño Web.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/05_Web.gif" alt="AERODYM - Imagen corporativa y fotografía de producto" loading="lazy">
+                        <div class="slide-caption">
+                            <p>AERODYM - Aerosoles. Posicionamiento de marca. Imagen corporativa. Fotografía de producto, diseño web, papelería.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/lucero.gif" alt="LUCERO - Lavandería industrial" loading="lazy">
+                        <div class="slide-caption">
+                            <p>LUCERO - Lavandería industrial. Posicionamiento de marca, rediseño de logotipo y piezas de comunicación. Desarrollo Web.</p>
+                        </div>
+                    </div>         
+                    
+                    <div class="slide">
+                        <img src="img/portfolio/06_Mailing_Post_Facebook.jpg" alt="Diseño de mailing y posts para Facebook" loading="lazy">
+                        <div class="slide-caption">
+                            <p>Mailing y Post en Facebook.</p>
+                        </div>
+                    </div>
+                
+                    <div class="slide">
+                        <img src="img/portfolio/05_Web_1.jpg" alt="SUMAPACK - Packaging personalizado" loading="lazy">
+                        <div class="slide-caption">
+                            <p>SUMAPACK - Packaging personalizado.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/03_Papeleria_2.jpg" alt="TECNOLAB - Insumos de laboratorio" loading="lazy">
+                        <div class="slide-caption">
+                            <p>TECNOLAB - Insumos de laboratorio.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/tss.gif" alt="TSS GROUP - Servicios corporativos" loading="lazy">
+                        <div class="slide-caption">
+                            <p>TSS GROUP - .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="prev">❮</button>
+                    <button class="next">❯</button>
+                </div>
+            </div>-->
+            <div class="portfolio-slider" aria-label="Galería de trabajos realizados">
+
                 <div class="slides">
                     <div class="slide">
-                    <img src="img/portfolio/portfolio1.jpg" alt="LONCON - Posicionamiento de marca y rediseño de logotipo" loading="lazy">
-                    <div class="slide-caption">
-                        <p>LONCON - Posicionamiento de marca, rediseño de logotipo. Fotografía, diseño web, diseño de indumentaria.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/Nice_Portfolio-A21_imagenes-02.jpg" alt="ACEROS 21 - Identidad corporativa y diseño gráfico" loading="lazy">
-                    <div class="slide-caption">
-                        <p>ACEROS 21</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/05_Web.gif" alt="AERODYM - Imagen corporativa y fotografía de producto" loading="lazy">
-                    <div class="slide-caption">
-                        <p>AERODYM - Imagen corporativa. Fotografía de producto, diseño web, papelería.</p>
-                    </div>
-                </div>
-                <div class="slide">
                     <img src="img/portfolio/Nice_Portfolio-AMG_imagenes-02.jpg" alt="AMG - Diseño web y software de gestión" loading="lazy">
                     <div class="slide-caption">
-                        <p>AMG - Diseño web. Desarrollo de software de gestión de clientes y proveedores en web. Diseño gráfico para redes sociales. Estrategias de e-mail marketing.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/Nice_Portfolio-Cosde_imagenes-01.gif" alt="COSE - Diseño de marca y brochure institucional" loading="lazy">
-                    <div class="slide-caption">
-                        <p>COSE - Diseño de marca. Diseño Web.Diseño de brochure institucional. Hosting web.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/webecsa.gif" alt="ECSA - Manufactura de productos de acero" loading="lazy">
-                    <div class="slide-caption">
-                        <p>ECSA - Manufactura de productos de acero.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/lucero.gif" alt="LUCERO - Lavandería industrial" loading="lazy">
-                    <div class="slide-caption">
-                        <p>LUCERO - Lavandería industrial.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/fulllock.jpg" alt="FULL LOCK - Cerraduras inteligentes" loading="lazy">
-                    <div class="slide-caption">
-                        <p>FULL LOCK - Cerraduras inteligentes.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/NICE-portfolio-Grand-02.webp" alt="GRAND - Empresa de reformas" loading="lazy">
-                    <div class="slide-caption">
-                        <p>GRAND - Empresa de reformas.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/lamibraz.gif" alt="LAMIBRAZ - Rediseño de marca y fotografía" loading="lazy">
-                    <div class="slide-caption">
-                        <p>LAMIBRAZ - Rediseño de marca. Diseño web. Fotografía.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/merlift.gif" alt="MERLIFT - Empresa de logística" loading="lazy">
-                    <div class="slide-caption">
-                        <p>MERLIFT - Logística.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/Nice_Portfolio_nyc_redes1.webp" alt="NyC Metalúrgica - Empresa metalúrgica" loading="lazy">
-                    <div class="slide-caption">
-                        <p>NyC Metal&uacute;rgica - Empresa metalúrgica.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/modufox.gif" alt="MODUFOX - Empresa de construcción" loading="lazy">
-                    <div class="slide-caption">
-                        <p>MODUFOX - Construcción.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/po.jpg" alt="PAPEL OESTE - Papelera distribuidora" loading="lazy">
-                    <div class="slide-caption">
-                        <p>PAPEL OESTE - Papelera distribuidora.</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/06_Mailing_Post_Facebook.jpg" alt="Diseño de mailing y posts para Facebook" loading="lazy">
-                    <div class="slide-caption">
-                        <p>Mailing y Post en Facebook.</p>
+                        <p>AMG - Energía. Estrategia de comunicación digital. Desarrollo web + software de gestión de gestión de legajos 
+                            + diseño de piezas de presentación + estrategia de comunicación online + planificación y gestión de RRSS.</p>
                     </div>
                 </div>
                 <div class="slide">
                     <img src="img/portfolio/Nice_Portfolio-Pintarelli_imagenes-01.gif" alt="PINTARELLI - Bajo Chasis" loading="lazy">
                     <div class="slide-caption">
-                        <p>PINTARELLI - Bajo Chasis.</p>
+                        <p>PINTARELLI - Metalúrgica. Diseño de piezas de comunicación: packaging, presentaciones, presupuestos, rodados+ Desarrollo web + intervención en planta.</p>
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="img/portfolio/05_Web_2.jpg" alt="Diseño de e-commerce" loading="lazy">
+                    <img src="img/portfolio/loncon.jpg" alt="LONCON - Posicionamiento de marca y rediseño de logotipo" loading="lazy">
                     <div class="slide-caption">
-                        <p>E-COMMERCE</p>
+                        <p>LONCON - Limpieza y mantenimiento. Posicionamiento de marca, rediseño de logotipo y piezas de comunicación. Fotografía, diseño web, diseño de indumentaria y rodados.</p>
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="img/portfolio/05_Web_1.jpg" alt="SUMAPACK - Packaging personalizado" loading="lazy">
-                    <div class="slide-caption">
-                        <p>SUMAPACK - Packaging personalizado.</p>
+                        <img src="img/portfolio/po.jpg" alt="PAPEL OESTE - Papelera distribuidora" loading="lazy">
+                        <div class="slide-caption">
+                            <p>PAPEL OESTE - Papelera Mayorista. Posicionamiento de marca, rediseño de logotipo y piezas de comunicación. Desarrollo de e-commerce.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/03_Papeleria_2.jpg" alt="TECNOLAB - Insumos de laboratorio" loading="lazy">
-                    <div class="slide-caption">
-                        <p>TECNOLAB - Insumos de laboratorio.</p>
+                    <div class="slide">
+                        <img src="img/portfolio/Nice_Portfolio-A21_imagenes-02.jpg" alt="ACEROS 21 - Identidad corporativa y diseño gráfico" loading="lazy">
+                        <div class="slide-caption">
+                            <p>A21 - Aceros. Diseño de piezas de comunicación: papelería, presentaciones, presupuestos + Desarrollo web.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="slide">
-                    <img src="img/portfolio/tss.gif" alt="TSS GROUP - Servicios corporativos" loading="lazy">
-                    <div class="slide-caption">
-                        <p>TSS GROUP - .</p>
+                    <div class="slide">
+                        <img src="img/portfolio/NICE-portfolio-Grand-02.webp" alt="GRAND - Empresa de reformas" loading="lazy">
+                        <div class="slide-caption">
+                            <p>GRAND - Empresa de reformas en Estados Unidos. Posicionamiento de marca, rediseño de logotipo y piezas de comunicación. Desarrollo Web.</p>
+                        </div>
                     </div>
-                </div>
+                    <div class="slide">
+                        <img src="img/portfolio/merlift.gif" alt="MERLIFT - Empresa de logística" loading="lazy">
+                        <div class="slide-caption">
+                            <p>MERLIFT - Logística. Diseño de piezas de comunicación: papelería, presentaciones, presupuestos + Desarrollo web.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/Nice_Portfolio-Cosde_imagenes-01.gif" alt="COSE - Diseño de marca y brochure institucional" loading="lazy">
+                        <div class="slide-caption">
+                            <p>COSE - Tambores industriales. Diseño de marca y piezas de comunicación. Diseño Web. Estrategia de fidelización y merchandising.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/Nice_Portfolio_nyc_redes1.webp" alt="NyC Metalúrgica - Empresa metalúrgica" loading="lazy">
+                        <div class="slide-caption">
+                            <p>NyC Metal&uacute;rgica - Artículos publicitarios. Desarrollo de e-commerce + diseño de stand.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/webecsa.gif" alt="ECSA - Manufactura de productos de acero" loading="lazy">
+                        <div class="slide-caption">
+                            <p>ECSA - Resortes y alambres. Diseño de marca y piezas de comunicación. Diseño Web.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/05_Web.gif" alt="AERODYM - Imagen corporativa y fotografía de producto" loading="lazy">
+                        <div class="slide-caption">
+                            <p>AERODYM - Aerosoles. Posicionamiento de marca. Imagen corporativa. Fotografía de producto, diseño web, papelería.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/lucero.gif" alt="LUCERO - Lavandería industrial" loading="lazy">
+                        <div class="slide-caption">
+                            <p>LUCERO - Lavandería industrial. Posicionamiento de marca, rediseño de logotipo y piezas de comunicación. Desarrollo Web.</p>
+                        </div>
+                    </div>         
+                    
+                    <div class="slide">
+                        <img src="img/portfolio/06_Mailing_Post_Facebook.jpg" alt="Diseño de mailing y posts para Facebook" loading="lazy">
+                        <div class="slide-caption">
+                            <p>Mailing y Post en Facebook.</p>
+                        </div>
+                    </div>
+                
+                    <div class="slide">
+                        <img src="img/portfolio/05_Web_1.jpg" alt="SUMAPACK - Packaging personalizado" loading="lazy">
+                        <div class="slide-caption">
+                            <p>SUMAPACK - Packaging personalizado.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/03_Papeleria_2.jpg" alt="TECNOLAB - Insumos de laboratorio" loading="lazy">
+                        <div class="slide-caption">
+                            <p>TECNOLAB - Insumos de laboratorio.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/portfolio/tss.gif" alt="TSS GROUP - Servicios corporativos" loading="lazy">
+                        <div class="slide-caption">
+                            <p>TSS GROUP - .</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="controls">
                     <button class="prev">❮</button>

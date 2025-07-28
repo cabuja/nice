@@ -1708,13 +1708,14 @@ nav.scrolled .logo img {
 
     /* Portfolio */
     .portfolio .slides {
+        /*
         margin: 20px -15px;
-        gap: 15px;
+        gap: 15px;*/
     }
 
     .portfolio .slide {
         min-width: calc(100% - 30px);
-        margin: 0 15px;
+        margin: 0px;
     }
 
     .slide-caption {
@@ -1829,7 +1830,7 @@ nav.scrolled .logo img {
     }
 
     .portfolio-slider {
-        width: 96%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1942,6 +1943,20 @@ nav.scrolled .logo img {
     text-decoration: none;
 }
 
+.btnVolver {
+    color: #000;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    background-color: #EEE;
+    padding: 2px 10px 2px 10px;
+    transition: all 0.3s;
+}
+
+.btnVolver:hover {
+    background-color: #CCC;
+}
+
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -1953,6 +1968,10 @@ nav.scrolled .logo img {
 
     nav .redesSociales {
         display: none;
+    }
+
+    .btnVolver {
+        top: 95px;
     }
 }
 
@@ -2127,7 +2146,7 @@ nav.scrolled .logo img {
 
     .bgIdentidadVisual {
         background-size: cover !important;
-        background-position: right !important;
+        background-position: 25% !important;
     }
 
     .bgIdentidadVisual p {
